@@ -111,6 +111,6 @@ particlesJS("particles-js", {
 
 const music = new Audio('Audio.mp4');
 
-function playMusic () {
+document.body.addEventListener("mousemove", function () {
     music.play();
-}
+})
