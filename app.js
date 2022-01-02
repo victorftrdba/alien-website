@@ -110,4 +110,7 @@ particlesJS("particles-js", {
 });
 
 const music = new Audio('Audio.mp4');
-music.play();
+
+document.body.addEventListener("mousemove", function () {
+    music.play();
+})
